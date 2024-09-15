@@ -1,0 +1,31 @@
+.searchBox {
+  display: flex;
+  background-color: #ffffff;
+  width: fit-content;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.searchBox__search {
+  padding: 0.75rem 1.5rem;
+  border: none;
+}
+
+.searchBox__reset {
+  margin: 0;
+  padding: 1rem;
+  cursor: pointer;
+}
+.players__profileCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  background-color: white;
+}
+.profileCard__img {
+  width: 100%;
+  height: 250px;
+}
+
+.optionsRow {
+  display: flex;
+  flex-wrap: wrap;
+}

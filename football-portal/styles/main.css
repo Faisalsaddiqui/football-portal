@@ -1,0 +1,161 @@
+body {
+  background: rgb(241, 245, 249);
+}
+
+a {
+  text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0px;
+  z-index: 99998;
+  background: black;
+  opacity: 0.2;
+}
+
+.hidden {
+  display: none;
+}
+
+.navMobile {
+  padding: 1rem 2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  background-color: rgb(47, 54, 95);
+}
+.navMobile__link {
+  display: flex;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  align-items: center;
+}
+
+.navMobile__link__text {
+  color: rgb(120, 134, 215);
+}
+
+.navMobile__link__text:hover {
+  color: white;
+}
+.navMobile__link__text--active {
+  color: white;
+}
+
+.color--primary {
+  color: rgb(47, 54, 95);
+}
+
+.background--primary {
+  background-color: rgb(47, 54, 95);
+}
+
+.background--secondary {
+  background-color: rgb(25, 30, 56);
+}
+.navMobile__button {
+  background: none;
+}
+.header__logo {
+  display: flex;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header__topbar {
+  display: flex;
+  padding: 1rem;
+  background-color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom-width: 1px;
+}
+
+.burgerIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #fff;
+}
+.sidebar {
+  display: none;
+  overflow-y: auto;
+  padding: 3rem;
+  background-color: rgb(47, 54, 95);
+  flex-shrink: 0;
+  width: 14rem;
+}
+
+.sidebar__navLink {
+  display: flex;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  align-items: center;
+  color: rgb(120, 134, 215);
+}
+
+.sidebar__navLink--active {
+  color: white;
+}
+
+.sidebar__navLink:hover {
+  color: white;
+}
+
+.button--transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.main__content {
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .navMobile .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .header {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  .header__logo {
+    flex-shrink: 0;
+    justify-content: center;
+    width: 14rem;
+  }
+  .navMobile__button {
+    display: none;
+  }
+  .header__topbar {
+    padding: 0 3rem;
+  }
+  .header__topbar p {
+    margin: 0;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .main {
+    display: flex;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+
+  .main__content {
+    overflow-y: auto;
+    padding: 3rem;
+    flex: 1 1 0%;
+  }
+}

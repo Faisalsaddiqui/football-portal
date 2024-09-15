@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Football</title>
+  </head>
+  <body>
+    <div class="overlay hidden"></div>
+    <div
+      class="navContainer hidden"
+      style="
+        position: absolute;
+        z-index: 99999;
+        top: 60px;
+        right: 0px;
+        will-change: transform;
+      "
+    >
+      <div class="navMobile">
+        <div>
+          <div>
+            <a href="/" class="navMobile__link">
+              <div class="navMobile__link__text navMobile__link__text--active">
+                All Players
+              </div></a
+            >
+          </div>
+          <div>
+            <a href="/search.html" class="navMobile__link">
+              <div class="navMobile__link__text">Search Players</div></a
+            >
+          </div>
+          <div>
+            <a href="/add.html" class="navMobile__link">
+              <div class="navMobile__link__text">Add Player</div></a
+            >
+          </div>
+          <div>
+            <a href="/edit.html" class="navMobile__link">
+              <div class="navMobile__link__text">Edit Player</div></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__logo background--secondary">
+          <p>FootBall App</p>
+          <button type="button" class="navMobile__button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              class="burgerIcon"
+            >
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="header__topbar">
+          <p>Football stats</p>
+          <button class="button--transparent">Logout</button>
+        </div>
+      </header>
+      <main class="main">
+        <nav class="sidebar">
+          <div class="sidebar__navItem">
+            <a href="/" class="sidebar__navLink sidebar__navLink--active"
+              >All Players</a
+            >
+          </div>
+          <div class="sidebar__navItem">
+            <a href="/search.html" class="sidebar__navLink">Search Players</a>
+          </div>
+          <div class="sidebar__navItem">
+            <a href="/add.html" class="sidebar__navLink">Add Player</a>
+          </div>
+          <div class="sidebar__navItem">
+            <a href="/edit.html" class="sidebar__navLink">Edit Player</a>
+          </div>
+        </nav>
+        <div class="main__content">
+          <div class="heading">
+            <h1 class="heading__text">View All</h1>
+          </div>
+          <div class="players"></div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="scripts/modules/playersSet.js"></script>
+    <script type="module" src="scripts/index.js"></script>
+    <script src="scripts/main.js  "></script>
+  </body>
+</html>

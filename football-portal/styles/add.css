@@ -1,0 +1,71 @@
+.formBox {
+  overflow: hidden;
+  background-color: #ffffff;
+  max-width: 48rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.formBox__container {
+  display: flex;
+  padding: 2rem;
+  margin-right: -1.5rem;
+  margin-bottom: -2rem;
+  flex-wrap: wrap;
+}
+.formBox__formControl {
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+.formBox__formControl input {
+  text-align: left;
+  color: rgb(51, 65, 85);
+  width: 100%;
+  border-radius: 0.25rem;
+  border: 0 solid #e2e8f0;
+  border-width: 1px;
+  display: block;
+  line-height: 1.5;
+  padding: 0.5rem;
+  position: relative;
+}
+.formControl__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: rgb(51, 65, 85);
+}
+.btnBox {
+  display: flex;
+  padding: 1rem 2rem;
+  background-color: #f9fafb;
+  justify-content: space-between;
+  align-items: center;
+  border-top-width: 1px;
+  border-color: #f3f4f6;
+}
+.btnBox__btn {
+  border-radius: 0.25rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 1rem;
+  padding: 0.75rem 1.5rem;
+  color: rgba(255, 255, 255);
+  white-space: nowrap;
+  background-color: rgb(86, 97, 179);
+  border: none;
+}
+
+.btnBox__delete {
+  color: red;
+  background: none;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .formBox__formControl {
+    width: 50%;
+  }
+}
