@@ -26,13 +26,13 @@ Navigate to the project directory
 cd football-portal
 ```
 ### Usage
-**Select Players:** Choose players from the available list to create two teams.
+- **Select Players:** Choose players from the available list to create two teams.
 
-**Start a Match:** Click the "Play" button to begin the match simulation.
+- **Start a Match:** Click the "Play" button to begin the match simulation.
 
-**View Results:** After the match, view the scores, player performance, and match statistics.
+- **View Results:** After the match, view the scores, player performance, and match statistics.
 
-**Reset and Play Again:** Reset teams and simulate new matches as desired.
+- **Reset and Play Again:** Reset teams and simulate new matches as desired.
 
 ### Contributing:
 Contributions are welcome! If you'd like to enhance the Football Portal by adding new features or improving the existing functionality, feel free to submit a pull request. Please make sure your code follows best practices and is well-documented.
