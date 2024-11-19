@@ -21,7 +21,7 @@ The Football Portal is a web application that allows users to simulate and play 
 ```
 git clone https://github.com/your-username/football-portal.git
 ```
-**Navigate to the project directory**
+Navigate to the project directory
 
 ### Usage
 **Select Players:** Choose players from the available list to create two teams.
