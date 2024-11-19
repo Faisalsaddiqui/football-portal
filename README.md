@@ -3,11 +3,11 @@
 The Football Portal is a web application that allows users to simulate and play football matches with different players. Built using HTML, CSS, and JavaScript, this portal offers a fun and interactive experience for football enthusiasts.
 
 ### Features
-**Player Selection:** Choose from a list of players to form teams.
+- **Player Selection:** Choose from a list of players to form teams.
 
-**Match Simulation:** Play football matches where players compete, score, and display results.
+- **Match Simulation:** Play football matches where players compete, score, and display results.
 
-**Game Statistics:** View match stats, player scores, and results at the end of each game.
+- **Game Statistics:** View match stats, player scores, and results at the end of each game.
 
 **User-Friendly Interface:** Responsive design with intuitive controls for seamless gameplay.
 ### Technologies Used
