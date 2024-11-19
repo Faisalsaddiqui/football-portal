@@ -9,7 +9,7 @@ The Football Portal is a web application that allows users to simulate and play 
 
 - **Game Statistics:** View match stats, player scores, and results at the end of each game.
 
-**User-Friendly Interface:** Responsive design with intuitive controls for seamless gameplay.
+- **User-Friendly Interface:** Responsive design with intuitive controls for seamless gameplay.
 ### Technologies Used
 **HTML5:** Structure and layout of the football portal.
 
