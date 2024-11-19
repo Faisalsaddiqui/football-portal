@@ -11,11 +11,11 @@ The Football Portal is a web application that allows users to simulate and play 
 
 **User-Friendly Interface:** Responsive design with intuitive controls for seamless gameplay.
 ### Technologies Used
-HTML5: Structure and layout of the football portal.
+**HTML5:** Structure and layout of the football portal.
 
-CSS3: Styling and responsive design for the user interface.
+**CSS3:** Styling and responsive design for the user interface.
 
-JavaScript: Logic for player selection, match simulation, and displaying results.
+**JavaScript:** Logic for player selection, match simulation, and displaying results.
 Setup
 Clone the repository:
 
