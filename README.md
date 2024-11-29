@@ -34,5 +34,5 @@ cd football-portal
 
 - **Reset and Play Again:** Reset teams and simulate new matches as desired.
 
-### Contributing:
+### Contributing
 Contributions are welcome! If you'd like to enhance the Football Portal by adding new features or improving the existing functionality, feel free to submit a pull request. Please make sure your code follows best practices and is well-documented.
