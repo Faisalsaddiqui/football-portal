@@ -16,12 +16,13 @@ The Football Portal is a web application that allows users to simulate and play 
 **CSS3:** Styling and responsive design for the user interface.
 
 **JavaScript:** Logic for player selection, match simulation, and displaying results.
+### How to run
 
-**Setup Clone the repository**
+Setup Clone the repository
 ```
 git clone https://github.com/your-username/football-portal.git
 ```
-**Navigate to the project directory**
+Navigate to the project directory
 ```
 cd football-portal
 ```
