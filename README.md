@@ -1,4 +1,4 @@
-## Football Portal ⚽️
+# Football Portal ⚽️
 
 The Football Portal is a web application that allows users to simulate and play football matches with different players. Built using HTML, CSS, and JavaScript, this portal offers a fun and interactive experience for football enthusiasts.
 
