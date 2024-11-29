@@ -19,7 +19,7 @@ The Football Portal is a web application that allows users to simulate and play 
 
 ### How to run
 
-Setup Clone the repository
+Clone the repository
 ```
 git clone https://github.com/your-username/football-portal.git
 ```
